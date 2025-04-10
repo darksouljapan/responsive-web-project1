@@ -80,8 +80,8 @@ p {
     min-height: 250px;
     text-align: center;
     color: #fff;
-    background: #9480e4 url("images/intro-bg.png") screen;
-    /* background-blend-mode:hue; */
+    background: #9480e4 url("images/intro-bg.png");
+    background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 1.5em;
 }
@@ -139,13 +139,13 @@ input:focus {
 
 .btn-primary {
     color: white;
-    background-color: #8a71ec;
+    background-color: #5640cc;
     margin-top: 1em;    
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #b7a7f6;
+    background-color: #3a299b;
 }
 
 /* =================
