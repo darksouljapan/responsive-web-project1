@@ -80,7 +80,8 @@ p {
     min-height: 250px;
     text-align: center;
     color: #fff;
-    background: #9480e4 url("images/intro-bg.png");
+    background: #9480e4 url("images/intro-bg.png") screen;
+    /* background-blend-mode:hue; */
     background-size: cover;
     padding-bottom: 1.5em;
 }
